@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+body, .boton, #buscador input, #buscador button{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+header, section{
+  padding-bottom: 60px;
+}
+
+section{
+  padding-top: 60px;
+}
+
+h1{
+  font-weight: lighter;
+  font-size: 1.8em;
+}
+
+.boton{
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 1em;
+}
+
+.contenedor{
+  width: 800px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.texto-centrado{
+  text-align: center;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 36px;
+  font-size: 0.8em;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-left{
+  margin: 0 0 0 20px;
+  float: left;
+}
+
+.heart{
+  margin-right: 20px;
+}
+
+.top-links {
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header{
+  background-color: rgb(32, 101, 136);
+  background-image: url('images/city-scape.svg');
+  color: white;
+}
+
+#cabecera{
+  padding: 10px 20px;
+}
+
+.cabecera-left{
+  float: left;
+  width: 137px;
+}
+
+.cabecera-right{
+  float: right;
+  width: 155px;
+}
+
+.cabecera-middle{
+  margin-left: 137px;
+  margin-right: 155px;
+}
+
+#logo{
+  width: 117px;
+}
+
+#buscador{
+  width: 100%;
+  display: flex;
+}
+
+#buscador input, #buscador button{
+  background-color: rgb(31, 82, 111);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 10px 13px;
+  margin: 0;
+}
+#buscador input{
+  box-sizing: border-box;
+  flex: 1 1 auto;
+}
+
+#login{
+  float: right;
+  margin: 10px 0;
+  padding: 0;
+}
+
+#login li{
+  display: inline-block;
+}
+
+#login li:first-child{
+  float: left;
+}
+
+#login li a{
+  text-decoration: none;
+  color: rgba(255,255,255,0.7);
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+}
+
+#login img{
+  height: 25px;
+  margin-left: 5px;
+}
+
+.cabecera-texto{
+  width: 60%;
+}
+
+header h1{
+  font-size: 2.5em;
+}
+
+header .boton{
+  background-color: rgb(240, 146, 51);
+  margin-top: 30px;
+}
+
+#collaboration{
+  color: white;
+  background-color: rgb(39, 53, 71);
+}
+
+#collaboration-img{
+  width: 400px;
+}
+
+#collaboration .boton{
+  background-color: rgb(203, 56, 55);
+}
+
+#collaboration-text{
+  float: right;
+  width: 400px;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+
+#collaboration h1{
+  margin: 0;
+}
+
+#collaboration-text ul{
+  padding: 0 0 0 15px;;
+}
+
+#collaboration-text ul li{
+  margin-bottom: 15px;
+  font-size: 0.8em;
+}
+
+#collaboration-text p{ 
+  font-size: 0.8em;
+  margin: 5px 0 0;
+}
+
+#collaboration-text a{
+  color: white;
+  font-weight: bolder; 
+  text-decoration: none;
+}
+
+#what-is-npm{
+  color: white;
+  background-image: url('images/forklift.svg');
+  background-size: cover;
+  position: relative;
+  height: 280px;
+}
+
+#what-is-npm .boton{
+  background-color: rgb(49, 68, 88);
+}
+
+.what-is-npm-text{
+  width: 280px;
+  position: absolute;
+  left: 250px;
+}
+
+.what-is-npm-text p{
+  font-size: 0.8em;
+}
+
+#what-can-you-make{
+  color: rgb(135, 145, 156);
+}
+
+#what-can-you-make h1{
+  color: rgb(83, 88, 98);
+}
+
+#what-can-you-make h2{
+  font-size: 1em;
+}
+
+#what-can-you-make a{
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+
+.col-3 div{
+  width: 33.33%;
+  float: left;
+  font-size: 0.9em;
+  padding: 20px;
+  box-sizing: border-box;
+}
